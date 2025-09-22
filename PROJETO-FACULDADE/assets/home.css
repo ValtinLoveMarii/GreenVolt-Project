@@ -1,0 +1,114 @@
+/* #121212
+#28A745
+#A4D18B
+#EAEAEA
+*/
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+.highlight {
+  color: #28a745;
+  font-weight: bold;
+}
+body {
+  background-color: #282828;
+}
+header {
+  height: 70px;
+  background: rgba(77, 77, 77, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 10px;
+}
+.name-company {
+  color: #28a745;
+  font-size: 28px;
+  font-weight: bold;
+}
+.menu-options {
+  color: #eaeaea;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu-options p {
+  transition: all 0.3s ease-in-out;
+}
+.menu-options p:hover {
+  cursor: pointer;
+  color: #a4d18b;
+  text-shadow: 2px 2px 5px #28a745;
+  transform: scale(1.1);
+}
+
+.cont1 {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
+  height: 350px;
+}
+.img-illustration {
+  width: 40%;
+  height: 100%;
+  border: 1px solid white;
+}
+.text-explain-basic1 {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #eaeaea;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+.title-explain-1 {
+  line-height: 0.7;
+  border-bottom: 1px;
+  border-bottom: 1px solid #eaeaea;
+}
+.title-explain-1 p {
+  font-size: 48px;
+  font-weight: bold;
+  color: #eaeaea;
+}
+
+.cont2 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
+  height: 350px;
+}
+
+.skills {
+  margin-top: 20px;
+  border: 1px solid red;
+  height: 230px;
+  padding: 15px;
+}
+.title-skills {
+  display: flex;
+  flex-direction: column;
+  color: #eaeaea;
+  line-height: 0.6;
+}
+.icon-scroll {
+  border: 1px solid blue;
+}
+
