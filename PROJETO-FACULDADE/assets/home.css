@@ -58,13 +58,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   height: 350px;
 }
 .img-illustration {
   width: 40%;
   height: 100%;
-  border: 1px solid white;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .text-explain-basic1 {
   width: 60%;
@@ -74,7 +77,7 @@ header {
   color: #eaeaea;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .title-explain-1 {
   line-height: 0.7;
@@ -92,15 +95,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   height: 350px;
 }
 
 .skills {
   margin-top: 20px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 230px;
   padding: 15px;
+
 }
 .title-skills {
   display: flex;
@@ -112,3 +116,75 @@ header {
   border: 1px solid blue;
 }
 
+/* CAROUSEL ICONS  */
+
+.all-icons-box{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.carousel {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 90%;
+  max-width: 900px;
+  /* background: #fff; */
+  border-radius: 20px;
+  padding: 20px;
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
+  
+}
+
+.carousel-track {
+  display: inline-flex;
+  animation: scroll 12s linear infinite;
+}
+
+.carousel-track i {
+  font-size: 50px;
+  margin: 0 40px;
+  color: #28a745;
+  transition: color 0.3s, transform 0.3s;
+}
+
+#green-light{
+  color: #a4d18b;
+}
+#green-light:hover{
+  color: #eaeaea;
+}
+
+.carousel-track i:hover {
+  color: #eaeaea;
+  transform: scale(1.2);
+}
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: #28a745;
+  color: #eaeaea;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.icons-footer{
+  display: flex;
+  gap: 20px;
+}
+.icons-footer i{
+  color: #eaeaea;
+  font-size: 28px;
+  transition: all 0.3s ease-in-out;
+}
+.icons-footer i:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
