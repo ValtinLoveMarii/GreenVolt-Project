@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+.container{
+    font-size: 14px;
+    font-weight: bold;
+}
