@@ -49,6 +49,7 @@ header {
   transition: all 0.3s ease-in-out;
   color: #eaeaea;
   padding-bottom: 10px;
+  text-decoration: none;
 }
 .menu-options a:hover {
   cursor: pointer;
